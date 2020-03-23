@@ -1,0 +1,151 @@
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url("https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap&subset=cyrillic");
+}
+
+@font-face {
+  font-family: 'Caveat', cursive;
+  src: url("https://fonts.googleapis.com/css?family=Caveat&display=swap");
+}
+
+html{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif, 'Caveat', cursive;
+}
+
+.txt__logo {
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-left: 7px;
+  padding: 0;
+  color: #000000;
+  }
+
+h2 {
+  font-weight: 200;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+  
+h1 {
+  font-family: 'Caveat', cursive;
+  font-style: normal;
+  font-weight: normal;
+  text-align: right;
+  }
+
+.logo {
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.svg-menu {
+  display: flex;
+}
+
+.menu { 
+  display: flex;
+}
+
+.header {
+    margin: 0;
+    background-color: #E0D9D5;
+    width: 100%;
+}
+
+@media (max-width: 475px) {
+  .txt__logo {
+    font-size: 14px;
+  }
+  
+  h2 { 
+  font-size: 14px; 
+  }
+  
+  h1 {
+position: absolute;
+left: 20px;
+top: 471px;
+
+  text-align: right;
+  font-size: 48px;
+  }
+  
+  .logo {
+    margin-top: 8px;
+    height: 57px;
+}
+  
+  .svg-menu { 
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    }
+  
+  .svg-menu-inst {
+    margin-right: 17px;
+  }
+  
+  .svg-menu-phone {
+    margin-left: 18px;
+    margin-right: 11px;
+  }
+  
+  .menu {
+    width: 100%;
+    height: 32px;
+    background-color: #F4F2F0;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .txt__menu-1 {
+    padding-right: 40px;
+  }
+  
+  .txt__menu-2 {
+    padding-right: 40px;
+  }
+  
+  .wrapper {
+    height: 576px;
+    background: linear-gradient(to top, rgba(224, 217, 213, 0.2), rgba(224, 217, 213, 0.2)), url(https://github.com/Elizvladi/diploma-torec/blob/master/images/7375-background.jpg?raw=true) no-repeat;
+    background-size: cover;
+    
+  }
+
+
+@media (min-width: 476px) and (max-width: 1024px) {
+  .txt__logo {
+    font-size: 14px;
+  }
+  
+  .logo {
+    margin-top: 10px;
+    height: 57px;
+    backgrond-color: #E0D9D5;
+}
+}
+
+@media (min-width: 1025px) {
+  .txt__logo {
+    font-size: 16px;
+  }
+    
+  .logo {
+    margin-top: 10px;
+}
+  
+  .header {
+  display: flex;
+  justify-content: space-between;
+}
+}
