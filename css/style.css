@@ -1,11 +1,6 @@
 @font-face {
-  font-family: 'Roboto', sans-serif;
-  src: url("https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap&subset=cyrillic");
-}
-
-@font-face {
-  font-family: 'Caveat', cursive;
-  src: url("https://fonts.googleapis.com/css?family=Caveat&display=swap");
+  font-family: 'Roboto', sans-serif, 'Caveat', cursive;
+  src: url("https://fonts.googleapis.com/css?family=Caveat|Roboto&display=swap");
 }
 
 html{
